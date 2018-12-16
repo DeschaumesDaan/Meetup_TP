@@ -14,11 +14,7 @@
                             <ColumnDefinition Width="60" />
                             <ColumnDefinition />
                         </Grid.ColumnDefinitions>
-                        <BoxView BackgroundColor="#BA903F" />
-                        <BoxView Margin="1" BackgroundColor="Black" />
-                        <Label Text="{Binding City}" VerticalOptions="Center" HorizontalOptions="Center" 
-                               HorizontalTextAlignment="Center" FontSize="Large" FontAttributes="Bold" 
-                               TextColor="#BA903F" WidthRequest="60" />
+                        <Label Text="{Binding City}" VerticalOptions="Center" HorizontalOptions="Center"  />
                         <Grid Padding="8" Grid.Column="1">
                             <Grid.RowDefinitions>
                                 <RowDefinition />
